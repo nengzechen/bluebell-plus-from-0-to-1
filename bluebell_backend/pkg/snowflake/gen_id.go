@@ -30,7 +30,7 @@ func Init(machineId uint16) (err error) {
 // GetID 返回生成的id值
 func GetID() (id uint64, err error) { // 拿到sonyFlake节点生成id值
 	if sonyFlake == nil {
-		err = fmt.Errorf("snoy flake not inited")
+		err = fmt.Errorf("snoy falke not inited")
 		return
 	}
 

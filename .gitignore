@@ -2,4 +2,4 @@
 .DS_Store
 *.log
 dist/
-config.yaml
+bluebell_backend/conf/config.yaml
